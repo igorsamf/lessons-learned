@@ -2,7 +2,7 @@ body {
     background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -11,5 +11,12 @@ body {
 #rodape {
     position: absolute;
     bottom: 0;
-    width: 100%;
+}
+#texto1 {
+    font-size: 35px;
+   color: blue;
+    font-family: 'Times New Roman', Times, serif; 
+}
+#texto2 {
+    line-height: normal;
 }
