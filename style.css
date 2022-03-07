@@ -20,3 +20,9 @@ body {
 #texto2 {
     line-height: normal;
 }
+table {
+    margin-left: 590px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
