@@ -1,28 +1,69 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    height: 30px;
+    height: 5px;
+    background-color: blue;
+    padding: 7%;
+    text-align: center;
+}
+main {
+    position: relative;
+    top: 20px;
+}
+
+img { 
+    margin-top: 200px;
+    margin-left: 80px;
 }
 #rodape {
     position: absolute;
     bottom: 0;
 }
-#texto1 {
-    font-size: 35px;
-   color: blue;
-    font-family: 'Times New Roman', Times, serif; 
-}
-#texto2 {
-    line-height: normal;
-}
+
 table {
-    margin-left: 590px;
-    margin-bottom: 10px;
+    margin-left: 700px;
+    margin-bottom: 100px;
     border: 1px solid black;
     text-align: center;
+    width: 220px;
+    font-size: 20px;
+    position: absolute;
+    line-height: normal;
   }
+
+#subtitulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-style: italic;
+    color: blue;
+}
+
+.lado-esquerdo {
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+}
+
+.lado-direito {
+    width: 30%;
+    display: inline-block;
+    margin-left: 130px;
+    border-left: 1px solid blue;
+    padding: 20px;
+    position: absolute;
+
+a {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.titulo-aprendizado {
+    font-size: 30px;
+    color: blue;
+}
