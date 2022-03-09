@@ -14,7 +14,6 @@ body {
 }
 main {
     position: relative;
-    top: 20px;
 }
 
 img { 
@@ -44,26 +43,25 @@ table {
     color: blue;
 }
 
-.lado-esquerdo {
+.lado-esquerdo{
     width: 30%;
-    display: inline-block;
     position: absolute;
+    display: inline-block;
+    top: 250px;
+    left: 10%;
+    padding: 5px;
 }
 
 .lado-direito {
     width: 30%;
-    display: inline-block;
-    margin-left: 130px;
-    border-left: 1px solid blue;
-    padding: 20px;
     position: absolute;
+    display: inline-block;
+    top: 250px;
+    left: 60%;
+    padding: 5px;
+}
 
 a {
     font-size: 20px;
     margin-left: 40px;
-}
-
-.titulo-aprendizado {
-    font-size: 30px;
-    color: blue;
 }
